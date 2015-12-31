@@ -1,0 +1,146 @@
+{
+  "basics": {
+    "name": "Robert Norberg",
+    "label": "Data Scientist",
+    "picture": "",
+    "email": "robertcnorberg@gmail.com",
+    "phone": "(786) 239-5278",
+    "website": "",
+    "summary": "Robert is a data scientist that brings a combination of technical know-how, practicality, and relentless enthusiasm to all of his work. He has a passion for programming, bicycles, and punny names. Ask him about his two cats, Martin Van Purren and Grofur Cleveland.",
+    "location": {
+      "address": "3737 St Johns Bluff Rd S; Apt 613",
+      "postalCode": "32234",
+      "city": "Jacksonville",
+      "countryCode": "US",
+      "region": "Florida"
+    },
+    "profiles": []
+  },
+  "work": [
+    {
+      "company": "RTI International",
+      "position": "Environmental Scientist",
+      "website": "",
+      "startDate": "2012-05-01",
+      "endDate": "2015-05-01",
+      "summary": "Data analysis for environmental research projects",
+      "highlights": []
+    },
+    {
+      "company": "University of Central Florida",
+      "position": "Graduate Teaching Associate",
+      "website": "",
+      "startDate": "2013-08-01",
+      "endDate": "2015-05-01",
+      "summary": "Responsible for all aspects of teaching introductory statistics to a class of 60 undergraduates",
+      "highlights": []
+    },
+    {
+      "company": "Florida Blue",
+      "position": "Associate Data Scientist",
+      "website": "",
+      "startDate": "2015-05-01",
+      "endDate": "",
+      "summary": "Member health and quality of care analytics",
+      "highlights": [
+        "Developed a multitenant application for tracking, forecasting, and optimizing Medicare Stars ratings"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "University of North Carolina at Chapel Hill",
+      "area": "Quantitative Biology/Mathematical Decision Sciences",
+      "studyType": "Bachelor",
+      "startDate": "2009-08-01",
+      "endDate": "2013-05-01",
+      "gpa": "3.2",
+      "courses": []
+    },
+    {
+      "institution": "University of Central Florida",
+      "area": "Statistical Computing",
+      "studyType": "Master",
+      "startDate": "2013-08-01",
+      "endDate": "2015-05-01",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "EverBank Data Mining Contest",
+      "date": "2015-03-01",
+      "awarder": "EverBank",
+      "summary": "Developed a model to identify customers likely to take out another mortgage"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Statistical Computing",
+      "level": "Master",
+      "keywords": [
+        "R",
+        "ggplot2",
+        "data.table",
+        "caret"
+      ]
+    },
+    {
+      "name": "Statistics",
+      "level": "Master",
+      "keywords": [
+        "Nonparametric",
+        "Bayesian",
+        "Time series"
+      ]
+    },
+    {
+      "name": "Data Visualization",
+      "level": "Expert",
+      "keywords": [
+        "ggplot2",
+        "shiny",
+        "Tableau"
+      ]
+    },
+    {
+      "name": "Hadoop",
+      "level": "Proficient",
+      "keywords": [
+        "Hive",
+        "Spark"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "Proficient",
+      "keywords": [
+        "Postgres",
+        "MySQL",
+        "DB2",
+        "Netezza"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Bicycles",
+      "keywords": [
+        "BMX",
+        "MTB",
+        "Road",
+        "Commuting"
+      ]
+    }
+  ],
+  "references": []
+}
