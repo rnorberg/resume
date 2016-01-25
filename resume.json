@@ -6,7 +6,7 @@
     "email": "robertcnorberg@gmail.com",
     "phone": "(786) 239-5278",
     "website": "",
-    "summary": "Robert is a data scientist that brings a combination of technical know-how, practicality, and relentless enthusiasm to all of his work. He has a passion for programming, bicycles, and punny names. Ask him about his two cats, Martin Van Purren and Grofur Cleveland.",
+    "summary": "Robert is a well rounded data scientist that brings a combination of technical know-how, practicality, and relentless enthusiasm to all of his work.",
     "location": {
       "address": "3737 St Johns Bluff Rd S; Apt 613",
       "postalCode": "32234",
@@ -14,7 +14,11 @@
       "countryCode": "US",
       "region": "Florida"
     },
-    "profiles": []
+    "profiles": [{
+      "network": "LinkedIn", 
+      "username": "Robert Norberg", 
+      "url": "https://www.linkedin.com/in/robertcnorberg"
+    }]
   },
   "work": [
     {
@@ -23,8 +27,8 @@
       "website": "",
       "startDate": "2012-05-01",
       "endDate": "2015-05-01",
-      "summary": "Data analysis for environmental research projects",
-      "highlights": []
+      "summary": "Cleaned, combined, and analyzed sensor data from over a dozen sources in support of environmental research",
+      "highlights": ["Produced research that informed environmental policy legislated by the US Environmental Protection Agency"]
     },
     {
       "company": "University of Central Florida",
@@ -32,7 +36,7 @@
       "website": "",
       "startDate": "2013-08-01",
       "endDate": "2015-05-01",
-      "summary": "Responsible for all aspects of teaching introductory statistics to a class of 60 undergraduates",
+      "summary": "Responsible for all aspects of teaching introductory statistics to classes of approximately 60 undergraduates",
       "highlights": []
     },
     {
@@ -43,7 +47,9 @@
       "endDate": "",
       "summary": "Member health and quality of care analytics",
       "highlights": [
-        "Developed a multitenant application for tracking, forecasting, and optimizing Medicare Stars ratings"
+        "Developed a multitenant application for tracking, forecasting, and optimizing Medicare Stars ratings",
+        "Used web, demographic, and other unconventional data sources to forecast member health and utilization",
+        "Built an automated analysis pipeline for determining return on investment from observational data"
       ]
     }
   ],
@@ -55,7 +61,7 @@
       "studyType": "Bachelor",
       "startDate": "2009-08-01",
       "endDate": "2013-05-01",
-      "gpa": "3.2",
+      "gpa": "",
       "courses": []
     },
     {
@@ -73,7 +79,7 @@
       "title": "EverBank Data Mining Contest",
       "date": "2015-03-01",
       "awarder": "EverBank",
-      "summary": "Developed a model to identify customers likely to take out another mortgage"
+      "summary": "Placed third in a data mining competition with entrants from all major universities in Florida"
     }
   ],
   "publications": [],
@@ -111,6 +117,7 @@
       "level": "Proficient",
       "keywords": [
         "Hive",
+        "pig",
         "Spark"
       ]
     },
