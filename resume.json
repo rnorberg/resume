@@ -5,7 +5,6 @@
     "picture": "",
     "email": "robertcnorberg@gmail.com",
     "phone": "(786) 239-5278",
-    "website": "",
     "summary": "Robert is a well rounded data scientist that brings a combination of technical know-how, practicality, and relentless enthusiasm to all of his work.",
     "location": {
       "address": "3737 St Johns Bluff Rd S; Apt 211",
@@ -22,22 +21,14 @@
   },
   "work": [
     {
-      "company": "RTI International",
-      "position": "Environmental Scientist",
-      "website": "",
-      "startDate": "2012-05-01",
-      "endDate": "2015-05-01",
-      "summary": "Cleaned, combined, and analyzed sensor data from over a dozen sources in support of environmental research",
-      "highlights": ["Produced research that informed environmental policy legislated by the US Environmental Protection Agency"]
-    },
-    {
-      "company": "University of Central Florida",
-      "position": "Graduate Teaching Associate",
-      "website": "",
-      "startDate": "2013-08-01",
-      "endDate": "2015-05-01",
-      "summary": "Responsible for all aspects of teaching introductory statistics to classes of approximately 60 undergraduates",
-      "highlights": []
+      "company": "Data Signals",
+      "position": "Chief Data Scientist",
+      "website": "www.datasignalsllc.com",
+      "startDate": "2016-03-01",
+      "summary": "Designed and built an analytics-as-a-service product for outbound consumer contact centers",
+      "highlights": [
+        "Architected and built a platform for data exchange and storage, customized predictive model training, individual and batch model-as-a-service predictions, and dashboard visualizations"
+      ]
     },
     {
       "company": "Florida Blue",
@@ -53,34 +44,41 @@
       ]
     },
     {
-      "company": "Data Signals",
-      "position": "Chief Data Scientist",
-      "website": "www.datasignalsllc.com",
-      "startDate": "2016-03-01",
-      "endDate": "",
-      "summary": "Designed and built an analytics-as-a-service product for outbound consumer contact centers",
-      "highlights": [
-        "Architected and built a platform for data exchange and storage, customized predictive model training, individual and batch model-as-a-service predictions, and dashboard visualizations"
-      ]
+      "company": "University of Central Florida",
+      "position": "Graduate Teaching Associate",
+      "website": "",
+      "startDate": "2013-08-01",
+      "endDate": "2015-05-01",
+      "summary": "Responsible for all aspects of teaching introductory statistics to classes of approximately 60 undergraduates",
+      "highlights": []
+    },
+    {
+      "company": "RTI International",
+      "position": "Environmental Scientist",
+      "website": "",
+      "startDate": "2012-05-01",
+      "endDate": "2015-05-01",
+      "summary": "Cleaned, combined, and analyzed sensor data from over a dozen sources in support of environmental research",
+      "highlights": ["Produced research that informed environmental policy legislated by the US Environmental Protection Agency"]
     }
   ],
   "volunteer": [],
   "education": [
-    {
-      "institution": "University of North Carolina at Chapel Hill",
-      "area": "Quantitative Biology/Mathematical Decision Sciences",
-      "studyType": "Bachelor",
-      "startDate": "2009-08-01",
-      "endDate": "2013-05-01",
-      "gpa": "",
-      "courses": []
-    },
     {
       "institution": "University of Central Florida",
       "area": "Statistical Computing",
       "studyType": "Master",
       "startDate": "2013-08-01",
       "endDate": "2015-05-01",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "University of North Carolina at Chapel Hill",
+      "area": "Quantitative Biology/Mathematical Decision Sciences",
+      "studyType": "Bachelor",
+      "startDate": "2009-08-01",
+      "endDate": "2013-05-01",
       "gpa": "",
       "courses": []
     }
@@ -124,12 +122,13 @@
       ]
     },
     {
-      "name": "Hadoop",
+      "name": "Data Science Ops",
       "level": "Proficient",
       "keywords": [
-        "Hive",
-        "pig",
-        "Spark"
+        "Version Control",
+        "Amazon Web Services",
+        "Containers",
+        "Package Management"
       ]
     },
     {
@@ -147,17 +146,6 @@
     {
       "language": "English",
       "fluency": "Native speaker"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Bicycles",
-      "keywords": [
-        "BMX",
-        "MTB",
-        "Road",
-        "Commuting"
-      ]
     }
   ],
   "references": []
