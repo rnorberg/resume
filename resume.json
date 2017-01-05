@@ -8,8 +8,8 @@
     "website": "",
     "summary": "Robert is a well rounded data scientist that brings a combination of technical know-how, practicality, and relentless enthusiasm to all of his work.",
     "location": {
-      "address": "3737 St Johns Bluff Rd S; Apt 613",
-      "postalCode": "32234",
+      "address": "3737 St Johns Bluff Rd S; Apt 211",
+      "postalCode": "32224",
       "city": "Jacksonville",
       "countryCode": "US",
       "region": "Florida"
@@ -44,12 +44,23 @@
       "position": "Associate Data Scientist",
       "website": "",
       "startDate": "2015-05-01",
-      "endDate": "",
+      "endDate": "2016-03-01",
       "summary": "Member health and quality of care analytics",
       "highlights": [
         "Developed a multitenant application for tracking, forecasting, and optimizing Medicare Stars ratings",
         "Used web, demographic, and other unconventional data sources to forecast member health and utilization",
         "Built an automated analysis pipeline for determining return on investment from observational data"
+      ]
+    },
+    {
+      "company": "Data Signals",
+      "position": "Chief Data Scientist",
+      "website": "www.datasignalsllc.com",
+      "startDate": "2016-03-01",
+      "endDate": "",
+      "summary": "Designed and built an analytics-as-a-service product for outbound consumer contact centers",
+      "highlights": [
+        "Architected and built a platform for data exchange and storage, customized predictive model training, individual and batch model-as-a-service predictions, and dashboard visualizations"
       ]
     }
   ],
@@ -122,7 +133,7 @@
       ]
     },
     {
-      "name": "Databases",
+      "name": "Relational Databases",
       "level": "Proficient",
       "keywords": [
         "Postgres",
