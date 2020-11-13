@@ -1,0 +1,121 @@
+---
+name: Robert
+surname: Norberg
+position: "Senior Data Scientist"
+phone: +1 786 239 5278
+email: "robertcnorberg@gmail.com"
+github: rnorberg
+linkedin: robertcnorberg
+date: "`r format(Sys.time(), '%B %Y')`"
+aboutme: "Robert is a full stack data scientist that brings technical know-how, practicality, and relentless enthusiasm to all of his work."
+headcolor: a3dcff
+docname: "Resume"
+output: 
+  vitae::awesomecv:
+    includes:
+      in_header: columns.tex
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(purrr)
+library(magrittr)
+library(dplyr)
+resume_data <- jsonlite::read_json("resume.json")
+```
+
+# Work Experience
+
+```{r}
+resume_data %>%
+  pluck("work")%>%
+  map_df(as_tibble) %>%
+  group_by(
+    company,
+    location,
+    position,
+    startDate = as.Date(startDate),
+    endDate = as.Date(endDate),
+    summary
+  ) %>%
+  summarise(highlights = list(highlights)) %>%
+  arrange(desc(startDate)) %>%
+  mutate(
+    startDate = format(startDate, "%b %Y"),
+    endDate = ifelse(is.na(endDate), "Current", format(endDate, "%b %Y"))
+  ) %>%
+  detailed_entries(
+    what = position,
+    when = paste(startDate, endDate, sep = " - "),
+    with = company,
+    where = location,
+    why = highlights
+  )
+```
+
+# Education
+
+```{r}
+resume_data %>%
+  pluck("education") %>%
+  map_df(as_tibble) %>%
+  mutate(
+    startDate = as.Date(startDate),
+    endDate = as.Date(endDate)
+  ) %>%
+  arrange(desc(startDate)) %>%
+  mutate(
+    startDate = format(startDate, "%b %Y"),
+    endDate = format(endDate, "%b %Y")
+  ) %>%
+  detailed_entries(
+    what = paste0(studyType, ": ", area),
+    when = paste(startDate, endDate, sep = " - "),
+    with = institution,
+    where = location
+  )
+```
+
+# Skills
+
+```{r}
+skills <- resume_data %>%
+  pluck("skills") %>%
+  map_df(as_tibble) %>%
+  group_by(name, level) %>%
+  summarise(keywords = list(keywords))
+n_skills <- nrow(skills)
+```
+
+:::::: {.cols data-latex=""}
+
+::: {.col data-latex="{0.45\textwidth}"}
+```{r}
+detailed_entries(
+  skills[seq(1, n_skills, by = 2),],
+    what = level,
+    with = name,
+    why = keywords
+  )
+```
+:::
+
+::: {.col data-latex="{0.1\textwidth}"}
+\ 
+<!-- an empty Div (with a white space), serving as
+a column separator -->
+:::
+
+::: {.col data-latex="{0.45\textwidth}"}
+```{r}
+detailed_entries(
+  skills[seq(2, n_skills, by = 2),],
+    what = level,
+    with = name,
+    why = keywords
+  )
+```
+
+:::
+::::::

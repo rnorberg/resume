@@ -1,3 +1,3 @@
 # Robert's Resume
 
-This repository contains my resume in [json format](https://jsonresume.org/). 
+This repository contains my resume, written as an R Markdown document.

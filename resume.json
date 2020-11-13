@@ -1,144 +1,123 @@
 {
-  "basics": {
-    "name": "Robert Norberg",
-    "label": "Data Scientist",
-    "picture": "",
-    "email": "robertcnorberg@gmail.com",
-    "phone": "(786) 239-5278",
-    "summary": "Robert is a well rounded data scientist that brings a combination of technical know-how, practicality, and relentless enthusiasm to all of his work.",
-    "location": {
-      "address": "3737 St Johns Bluff Rd S; Apt 211",
-      "postalCode": "32224",
-      "city": "Jacksonville",
-      "countryCode": "US",
-      "region": "Florida"
-    },
-    "profiles": [{
-      "network": "LinkedIn", 
-      "username": "Robert Norberg", 
-      "url": "https://www.linkedin.com/in/robertcnorberg"
-    }]
-  },
   "work": [
     {
+      "company": "Florida Blue",
+      "location": "Jacksonville, FL",
+      "position": "Senior Data Scientist",
+      "startDate": "2017-03-01",
+      "summary": "Data Science and Analytics technology enabler",
+      "highlights": [
+        "Authored and maintained an internal company R package with branded ggplot2 themes and R Markdown templates, utility functions for Kerberos authentication, deep integration with DBI and odbc for effortless data access, and more",
+        "Architected, deployed, administered, and maintained an analytics environment and grew it to over 40 developers and over 250 weekly active users in one year",
+        "Lead analyst and data engineer for a company-wide customer experience initiative that evolved into an entire department"
+      ]
+    },
+    {
       "company": "Data Signals",
+      "location": "Jacksonville, FL",
       "position": "Chief Data Scientist",
-      "website": "www.datasignalsllc.com",
       "startDate": "2016-03-01",
+      "endDate": "2017-02-01",
       "summary": "Designed and built an analytics-as-a-service product for outbound consumer contact centers",
       "highlights": [
-        "Architected and built a platform for data exchange and storage, customized predictive model training, individual and batch model-as-a-service predictions, and dashboard visualizations"
+        "Architected and built an R and SQL-based platform for data exchange and storage, customized predictive model training, individual and batch model-as-a-service predictions, and dashboard visualizations",
+        "Designed a multi-tenant database and built the infrastructure from scratch on AWS"
       ]
     },
     {
       "company": "Florida Blue",
+      "location": "Jacksonville, FL",
       "position": "Associate Data Scientist",
-      "website": "",
       "startDate": "2015-05-01",
       "endDate": "2016-03-01",
       "summary": "Member health and quality of care analytics",
       "highlights": [
         "Developed a multitenant application for tracking, forecasting, and optimizing Medicare Stars ratings",
-        "Used web, demographic, and other unconventional data sources to forecast member health and utilization",
-        "Built an automated analysis pipeline for determining return on investment from observational data"
+        "Used web, demographic, and other unconventional data sources to forecast member health and utilization"
       ]
     },
     {
       "company": "University of Central Florida",
+      "location": "Orlando, FL",
       "position": "Graduate Teaching Associate",
-      "website": "",
       "startDate": "2013-08-01",
       "endDate": "2015-05-01",
       "summary": "Responsible for all aspects of teaching introductory statistics to classes of approximately 60 undergraduates",
-      "highlights": []
+      "highlights": [
+        "Taught four semesters of introductory statistics to undergraduate students"
+      ]
     },
     {
       "company": "RTI International",
+      "location": "Raleigh, NC",
       "position": "Environmental Scientist",
-      "website": "",
       "startDate": "2012-05-01",
       "endDate": "2015-05-01",
       "summary": "Cleaned, combined, and analyzed sensor data from over a dozen sources in support of environmental research",
-      "highlights": ["Produced research that informed environmental policy legislated by the US Environmental Protection Agency"]
+      "highlights": [
+        "Produced research that informed environmental policy legislated by the US Environmental Protection Agency"
+        ]
     }
   ],
-  "volunteer": [],
   "education": [
     {
       "institution": "University of Central Florida",
+      "location": "Orlando, FL",
       "area": "Statistical Computing",
-      "studyType": "Master",
+      "studyType": "Master's Degree",
       "startDate": "2013-08-01",
-      "endDate": "2015-05-01",
-      "gpa": "",
-      "courses": []
+      "endDate": "2015-05-01"
     },
     {
       "institution": "University of North Carolina at Chapel Hill",
+      "location": "Chapel Hill, NC",
       "area": "Quantitative Biology/Mathematical Decision Sciences",
-      "studyType": "Bachelor",
+      "studyType": "Bachelor's Degree",
       "startDate": "2009-08-01",
-      "endDate": "2013-05-01",
-      "gpa": "",
-      "courses": []
+      "endDate": "2013-05-01"
     }
   ],
-  "awards": [
-    {
-      "title": "EverBank Data Mining Contest",
-      "date": "2015-03-01",
-      "awarder": "EverBank",
-      "summary": "Placed third in a data mining competition with entrants from all major universities in Florida"
-    }
-  ],
-  "publications": [],
   "skills": [
     {
-      "name": "Statistical Computing",
+      "name": "R",
       "level": "Master",
       "keywords": [
-        "R",
-        "ggplot2",
-        "data.table",
-        "caret"
+        "tidyverse",
+        "DBI/odbc",
+        "shiny",
+        "knitr/rmarkdown",
+        "testthat"
       ]
     },
     {
       "name": "Statistics",
-      "level": "Master",
-      "keywords": [
-        "Nonparametric",
-        "Bayesian",
-        "Time series"
-      ]
-    },
-    {
-      "name": "Data Visualization",
       "level": "Expert",
       "keywords": [
-        "ggplot2",
-        "shiny",
-        "Tableau"
+        "Parametric and nonparametric",
+        "Frequentist and bayesian",
+        "Time series forecasting",
+        "Predictive modeling"
       ]
     },
     {
       "name": "Data Science Ops",
-      "level": "Proficient",
+      "level": "Expert",
       "keywords": [
-        "Version Control",
+        "Version Control (git)",
+        "Continuous Integration (Jenkins)",
         "Amazon Web Services",
-        "Containers",
-        "Package Management"
+        "Dependency Management",
+        "Linux (RHEL, Debian, containers)"
       ]
     },
     {
       "name": "Relational Databases",
-      "level": "Proficient",
+      "level": "Master",
       "keywords": [
-        "Postgres",
-        "MySQL",
-        "DB2",
-        "Netezza"
+        "Postgres, SQL Server, DB2, Hive, and SQLite",
+        "Database design",
+        "Query optimization",
+        "Row/Column level security"
       ]
     }
   ],
@@ -147,6 +126,5 @@
       "language": "English",
       "fluency": "Native speaker"
     }
-  ],
-  "references": []
+  ]
 }
