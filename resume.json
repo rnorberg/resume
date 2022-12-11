@@ -1,15 +1,28 @@
 {
   "work": [
     {
+      "company": "Eventbrite",
+      "location": "Remote",
+      "position": "Senior Data Scientist, Risk",
+      "startDate": "2021-11-01",
+      "summary": "Responsible for automated risk decisions throughout the Eventbrite product",
+      "highlights": [
+        "Responsible for rule-based and ML-based decision systems that worked both in real time and asynchronously throughout the Eventbrite product, including spam detection, detecting web crawling and credential stuffing, fraud detection, and more",
+        "Evolved testing mechanisms for automated risk decisions",
+        "Diagnosed and mitigated coordinated inauthentic activity at large and small scale"
+      ]
+    },
+    {
       "company": "Florida Blue",
       "location": "Jacksonville, FL",
       "position": "Senior Data Scientist",
       "startDate": "2017-03-01",
+      "endDate": "2021-10-01",
       "summary": "Data Science and Analytics technology enabler",
       "highlights": [
         "Authored and maintained an internal company R package with branded ggplot2 themes and R Markdown templates, utility functions for Kerberos authentication, deep integration with DBI and odbc for effortless data access, and more",
         "Architected, deployed, administered, and maintained an analytics environment and grew it to over 40 developers and over 250 weekly active users in one year",
-        "Lead analyst and data engineer for a company-wide customer experience initiative that evolved into an entire department"
+        "Lead analyst and data engineer for a company-wide customer experience initiative focused on the use of surveys to measure individual customer experience"
       ]
     },
     {

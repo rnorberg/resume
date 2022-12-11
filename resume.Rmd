@@ -7,7 +7,7 @@ email: "robertcnorberg@gmail.com"
 github: rnorberg
 linkedin: robertcnorberg
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "Robert is a full stack data scientist that brings technical know-how, practicality, and relentless enthusiasm to all of his work."
+aboutme: "Robert is a thoughtful researcher that brings technical know-how, practicality, and relentless curiosity to all of his work."
 headcolor: a3dcff
 docname: "Resume"
 output: 
