@@ -1,10 +1,23 @@
 {
   "work": [
     {
+      "company": "Moffitt Cancer Center",
+      "location": "Remote",
+      "position": "Senior Data Scientist",
+      "startDate": "2023-05-01",
+      "summary": "Technical lead for Data Science team",
+      "highlights": [
+        "Support application used by geneticists to provide personalized treatment plans for cancer patients",
+        "Identified undocumented comorbidities in cancer patients to improve care outcomes",
+        "Designed enterprise AI hub for the enterprise"
+      ]
+    },
+    {
       "company": "Eventbrite",
       "location": "Remote",
       "position": "Senior Data Scientist, Risk",
       "startDate": "2021-11-01",
+      "endDate": "2023-05-01",
       "summary": "Responsible for automated risk decisions throughout the Eventbrite product",
       "highlights": [
         "Responsible for rule-based and ML-based decision systems that worked both in real time and asynchronously throughout the Eventbrite product, including spam detection, detecting web crawling and credential stuffing, fraud detection, and more",
