@@ -7,9 +7,12 @@
       "startDate": "2023-05-01",
       "summary": "Technical lead for Data Science team",
       "highlights": [
-        "Support application used by geneticists to provide personalized treatment plans for cancer patients",
+        "Maintained and gradually enhanced an application used by geneticists to provide personalized treatment plans for cancer patients by adding dependency management, automated tests, formal versioning and deployment procedures",
         "Identified undocumented comorbidities in cancer patients to improve care outcomes",
-        "Designed enterprise AI hub for the enterprise"
+        "Lead analysis and insight generation for enterprise Demand, Access, Capacity, and Retention initiative",
+        "Designed and built enterprise AI hub using AWS and open source technologies",
+        "Lead a team in the Moffitt Hackathon, resulting in an R package published to CRAN",
+        "Supported the Moffitt mission via annual participation in the Moffitt Ride for the Cure - a 325-mile bike ride from Tampa to Tallahassee, culminating in Moffitt Day at the Capitol"
       ]
     },
     {
@@ -116,6 +119,18 @@
       ]
     },
     {
+      "name": "Python",
+      "level": "Intermediate",
+      "keywords": [
+        "dash",
+        "boto3",
+        "pandas",
+        "scikit-learn",
+        "torch",
+        "pytest"
+      ]
+    },
+    {
       "name": "Statistics",
       "level": "Expert",
       "keywords": [
@@ -140,7 +155,7 @@
       "name": "Relational Databases",
       "level": "Master",
       "keywords": [
-        "Postgres, SQL Server, DB2, Hive, and SQLite",
+        "Snowflake, Postgres, SQL Server, DB2, Hive, and SQLite",
         "Database design",
         "Query optimization",
         "Row/Column level security"
